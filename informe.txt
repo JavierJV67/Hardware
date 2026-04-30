@@ -1,0 +1,12 @@
+1. Sincronización:
+Hemos tenido que hacer "git pull" para descargar los cambios del otro compañero en nuestro repositorio local.
+
+2. Detección de errores:
+- Si falta una coma en JSON, el JavaScript falla y no se muestra la tabla (error en consola).
+- Si hay un error en XSL, el navegador muestra el XML sin formato o un error de transformación.
+
+3. Comparativa:
+El método JSON + JavaScript es más fácil de mantener para 10.000 dispositivos, porque es más rápido, dinámico y escalable. XML con XSL es más pesado y menos eficiente.
+
+4. Control de versiones:
+Si ambos editan index.html a la vez, Git genera un conflicto. Hay que resolverlo manualmente eligiendo qué cambios mantener.
